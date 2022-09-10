@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.cter {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+    background-color: rgb(211, 145, 22);
+    border-radius: 250px;
+    border: 10px solid rgb(210, 105, 30);
+}
+.bian {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(211, 145, 22);
+    border-radius: 100px;
+    border: 10px solid rgb(210, 105, 30);
+}
+/* 上右下左 */
+.b1 {
+    top: -100px;
+    left: 150px;
+}
+.b2 {
+    top: 150px;
+    right: -100px;
+}
+.b3 {
+    bottom: -100px;
+    left: 150px;
+}
+.b4 {
+    left: -100px;
+    top: 150px;
+}
+/* 左上两 */
+.b5 {
+    left: -70px;
+    top: 10px;
+}
+.b6 {
+    left: 25px;
+    top: -70px;
+}
+/* 右上两 */
+.b7 {
+    right: -70px;
+    top: 10px;
+}
+.b8 {
+    right: 20px;
+    top: -70px;
+}
+/* 左下两 */
+.b9 {
+    left: -70px;
+    bottom: 10px;
+}
+.b10 {
+    left: 25px;
+    bottom: -70px;
+}
+/* 右下两 */
+.b11 {
+    right: -70px;
+    bottom: 10px;
+}
+.b12 {
+    right: 20px;
+    bottom: -70px;
+}
+.upper {
+    position: absolute;
+    top: -100px;
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+    background-color: rgb(211, 145, 22);
+    border-radius: 250px;
+    border: 10px solid rgb(210, 105, 30);
+}
+.upper h4 {
+    color: rgb(210, 105, 30);
+    font-size: 170px;
+    font-weight: 700;
+    padding-top: 30px;
+    text-align: center;
+}
+.cts {
+    position: absolute;
+    left: 162px;
+    top: 160px;
+    width: 152px;
+    height: 152px;
+    background-color: rgb(211, 145, 22);
+    border-radius: 94px;
+    border: 10px solid rgb(210, 105, 30);
+}
+.cts h3 {
+    height: 142px;
+    line-height: 142px;
+    color: rgb(210, 105, 30);
+    font-size: 65px;
+    font-weight: 700;
+}
